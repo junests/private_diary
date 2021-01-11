@@ -5,13 +5,12 @@
 {% block title %}Web上にあなた専用の日記ページを保存できるサービス | Private Diary{% endblock %}
 
 {% block header %}
-
 <header class="masthead text-center text-white">
     <div class="masthead-content">
         <div class="container">
             <h1 class="masthead-heading mb-0">Private Diary</h1>
             <h2 class="masthead-subheading mb-0">あなた専用の日記保存サービス</h2>
-            <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">LOG IN</a>
+            <a href="{% url 'account_login' %}" class="btn btn-primary btn-xl rounded-pill mt-5">LOG IN</a>
         </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -19,7 +18,6 @@
     <div class="bg-circle-3 bg-circle"></div>
     <div class="bg-circle-4 bg-circle"></div>
 </header>
-
 {% endblock %}
 
 {% block contents %}
