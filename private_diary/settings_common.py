@@ -163,3 +163,7 @@ ACCOUNT_LOGOUT_REDIRECT_URL = 'account_login'
 
 # logout link setting
 ACCOUNT_LOGOUT_ON_GET = True
+
+MEDIA_URL = '/media/'
+
+LOGIN_REDIRECT_URL = 'diary:diary_list'
